@@ -1,6 +1,6 @@
-package br.com.workshop.beanvalidation.validator;
+package br.com.workshop.javaee.beanvalidation.validator;
 
-import br.com.workshop.beanvalidation.validator.annotation.Email;
+import br.com.workshop.javaee.beanvalidation.validator.annotation.Email;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

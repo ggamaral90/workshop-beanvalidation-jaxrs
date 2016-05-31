@@ -1,6 +1,6 @@
-package br.com.workshop.beanvalidation.validator.annotation;
+package br.com.workshop.javaee.beanvalidation.validator.annotation;
 
-import br.com.workshop.beanvalidation.validator.EmailValidator;
+import br.com.workshop.javaee.beanvalidation.validator.EmailValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
@@ -15,7 +15,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Email {
 
-    String message() default "Email inválido";
+    String message() default "Email inválid";
     Class<?>[] groups() default { };
     Class<? extends Payload>[] payload() default { };
 }

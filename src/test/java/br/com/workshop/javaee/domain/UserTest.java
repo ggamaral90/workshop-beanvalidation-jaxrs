@@ -1,4 +1,4 @@
-package br.com.workshop.beanvalidation.domain;
+package br.com.workshop.javaee.domain;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -49,7 +49,7 @@ public class UserTest {
         Set<ConstraintViolation<User>> constraintViolations = validator.validate(user);
 
         assertEquals(1, constraintViolations.size());
-        assertEquals("Email inválido", constraintViolations.iterator().next().getMessage());
+        assertEquals("Email inválid", constraintViolations.iterator().next().getMessage());
     }
 
     @Test
